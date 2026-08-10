@@ -9,6 +9,7 @@ import Experience from "./sections/Experience";
 import Contact from "./sections/Contact";
 import LeadershipImpact from "./sections/LeadershipImpact";
 import ProfessionalGrowth from "./sections/ProfessionalGrowth";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
         <ProfessionalGrowth />
 
         <Contact />
+
+        <WhatsAppButton />
       </main>
       
       <Footer />
